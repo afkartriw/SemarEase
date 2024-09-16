@@ -43,9 +43,12 @@ const Navbar = () => {
           </a>
         </li>
         <li>
-          <a href="/peminjaman" className={linkClass('/peminjaman')}>
-            Peminjaman
-          </a>
+        <a
+  href="/peminjaman"
+  className={`${linkClass('/peminjaman')} ${linkClass('/mahasiswa')}`}
+>
+  Peminjaman
+</a>
         </li>
       </ul>
 
